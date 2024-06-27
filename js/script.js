@@ -1,7 +1,7 @@
 let movieNameRef = document.querySelector("#movie-name"),
     searchBtn = document.querySelector("#search-btn"),
     result = document.querySelector("#result"),
-    key = "5a4bccaa";
+    key = "enter your api key here"; 
 
 let getMovie = () => {
     let movieName = movieNameRef.value;
